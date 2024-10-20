@@ -1,0 +1,54 @@
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# IntelliJ project-specific settings
+.idea/modules.xml
+.idea/*.iml
+.idea/workspace.xml
+.idea/libraries/
+.idea/sbt_modules/
+.idea/scopes/
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/compiler.xml
+.idea/dictionaries/
+
+# sbt and Scala build files
+target/
+lib_managed/
+src_managed/
+.project
+.classpath
+.cache
+.history
+
+# sbt-specific files
+dist/
+logs/
+project/target/
+project/project/
+
+# Build Server Protocol (BSP)
+.bsp/
+
+# Scala and Java IDE build files
+*.class
+*.log
+*.swo
+*.swp
+*.tmp
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Exclude files created by sbt plugins (optional)
+.cache/
