@@ -3,6 +3,10 @@ package org.zoomll.scalculator
 import scalafx.application.JFXApp3
 import scalafx.scene.Scene
 
-abstract class Main extends JFXApp3
-  val stage = JFXApp3.PrimaryStage()
-  val scene = Scene(200,200)
+abstract class Main extends JFXApp3:
+  override def start():Unit = {
+    stage = new JFXApp3.PrimaryStage {
+      title = "Test"
+      scene = new Scene
+    }
+  }
