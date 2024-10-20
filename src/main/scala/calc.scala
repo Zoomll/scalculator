@@ -1,21 +1,27 @@
 package  org.zoomll.scalculator
 
 object  calc:
-  def add(a:Double,b:Double): Double = a + b
+  def add(a:Double,b:Double): String =
+    val ans:Double = a + b
+    ans.toString
 
-  def sub(a:Double,b:Double): Double = a - b
+  def sub(a:Double,b:Double): String =
+    val ans:Double = a - b
+    ans.toString
 
-  def mult(a:Double,b:Double): Double = a * b
+  def mult(a:Double,b:Double): String =
+    val ans:Double = a * b
+    ans.toString
 
-  def divi(a:Double,b:Double): Double =
+  def divi(a:Double,b:Double): String =
     if b != 0.toDouble then
-      val ans = a / b
-    else println("Error: Divide by 0 is not possible")
-    
-    ans
-    
-  
+      val ans:Double = a / b
+      ans.toString
+    else
+      "undefined"
 
-    
-  
-  
+
+
+
+
+
