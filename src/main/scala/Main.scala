@@ -22,6 +22,7 @@ object Main extends JFXApp3:
               style = "-fx-font: normal 44pt monospace"
             },
             new Button {
+              text = "Enter"
 
             }
           )
